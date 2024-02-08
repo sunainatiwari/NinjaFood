@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <title>Food</title>
+</head>
+
+<body class="text-gray-500">
+    <div class="bg-white grid md:grid-cols-3"> <!--content wrapper-->
+        <div class="md:col-span-1 md:flex md:justify-end
+        text-xl py-5 bg-sky-50"><!-- nav-content-->
+            <nav class="">
+                <div>
+                    <h1 class="text-lg font-bold uppercase mb-5 mr-2">
+                        <a href="/">Food Ninja</a>
+                    </h1>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#" class="font-bold">
+                            <span >Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Contact Us</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div> <!--end of nav content-->
+        <main class="bg-yellow-50  md:col-span-2 p-10">
+            <div class="float-end inline-flex gap-2"> 
+                <a href="#"><button class="bg-orange-400 rounded-full text-white text-sm 
+                    cursor-pointer tracking-wider p-2 uppercase font-bold">Log in</button></a>
+                <a href="#"><button class="bg-orange-400 rounded-full text-white text-sm 
+                    cursor-pointer tracking-wider p-2 uppercase font-bold">Sign up</button></a>
+            </div>
+            <header class="m-7">
+                <h2 class="text-gray-600 text-5xl font-semibold">Recipes</h2>
+                <h2 class="text-3xl">Food Ninja</h2>
+            </header>
+            <div class="grid ml-14">  <!--card wrapper  ///-->
+                <h2 class="font-bold text-xl m-6">Latest Recipes</h2>
+                <div class="grid lg:grid-cols-3 gap-20 "><!--Cards for latest recipes-->
+                    <div class="box-border shadow-xl rounded-md bg-white relative" >
+                        <div class="overflow-hidden "> <!-- image wrapper-->
+                            <img src="chole.jpg" alt="Not Found" style="height: 300px; width: 300px;">
+                        </div>
+                        <div class="grid m-8"  >
+                            <span class="font-bold text-lg">Matar Chole </span>
+                            <span>Recipe by Rekha</span>
+                        </div>
+                        <div>  <!--Prep time : badges in T-css-->
+                            <span class="bg-gray-200 font-bold text-xs text-gray-500 rounded-full p-3 absolute top-0">25 mins</span>
+                        </div>
+                    </div>
+                    <div class="box-border shadow-xl rounded-md bg-white relative" >
+                        <div class="overflow-hidden "> <!-- image wrapper-->
+                            <img src="panipuri.jpg" alt="Not Found" style="height: 300px; width: 300px;">
+                        </div>
+                        <div class="grid m-8" >
+                            <span class="font-bold text-lg">Mint Floavoured Suji Puris</span>
+                            <span>Recipe By Rekha</span>
+                        </div>
+                        <div>  <!--Prep time : badges in T-css-->
+                            <span class="bg-gray-200 font-bold text-xs text-gray-500 rounded-full p-3 absolute top-0">25 mins</span>
+                        </div>
+                    </div>
+                    <div class="box-border shadow-xl rounded-md bg-white relative" >
+                        <div class="overflow-hidden "> <!-- image wrapper-->
+                            <img src="samosa.jpg" alt="Not Found" style="height: 300px; width: 300px;">
+                        </div>
+                        <div class="grid m-8" >
+                            <span class="font-bold text-lg">Crisp Hot Samosa</span>
+                            <span>Recipe By Rekha</span>
+                        </div>
+                        <div>  <!--Prep time : badges in T-css-->
+                            <span class="bg-gray-200 font-bold text-xs text-gray-500 rounded-full p-3 absolute top-0">25 mins</span>
+                        </div>
+                    </div>
+                </div> <!--End of cards for latest recipes-->
+                <h2 class="font-bold text-xl m-6">Most Popular</h2>
+                <div class="grid lg:grid-cols-3 gap-20"><!-- Cards Go here for more popular-->
+                    <div class="box-border shadow-xl rounded-lg bg-white relative">
+                        <div class="overflow-hidden "> <!-- image wrapper-->
+                        <img src="Pasta.jpg" alt="Not Found" style="height: 300px; width: 300px;">
+                        </div>
+                        <div class="grid p-8">
+                            <span class="font-bold text-lg">Red Pasta </span>
+                            <span>Recipe by Rekha</span>
+                        </div>
+                        <div>  <!--Prep time : badges in T-css-->
+                            <span class="bg-gray-200 font-bold text-xs text-gray-500 rounded-full p-3 absolute top-0">25 mins</span>
+                        </div>
+                    </div>
+                    <div class="box-border shadow-xl rounded-lg bg-white relative">
+                        <div class="overflow-hidden "> <!-- image wrapper-->
+                        <img src="Noodles.jpg" alt="Not Found" style="height: 300px; width: 300px;">
+                        </div>
+                        <div class="grid p-8">
+                            <span class="font-bold text-lg">Noodles in Totamoto Sauce</span>
+                            <span>Recipe by Rekha</span>
+                        </div>
+                        <div>  <!--Prep time : badges in T-css-->
+                            <span class="bg-gray-200 font-bold text-xs text-gray-500 rounded-full p-3 absolute top-0">25 mins</span>
+                        </div>
+                    </div>
+                    <div class="box-border shadow-xl rounded-lg  bg-white relative">
+                        <div class="overflow-hidden "> <!-- image wrapper-->
+                        <img src="AlooBhujia.jpg" alt="Not Found" style="height: 300px; width: 300px;">
+                        </div>
+                        <div class="grid p-8">
+                            <span class="font-bold text-lg">Indian Style Aloo Fries</span>
+                            <span>Recipe by Rekha</span>
+                        </div>
+                        <div>  <!--Prep time : badges in T-css-->
+                            <span class="bg-gray-200 font-bold text-xs text-gray-500 rounded-full p-3 absolute top-0">25 mins</span>
+                        </div>
+                    </div>
+                </div> <!--End of cards for more popular-->
+                <div class="mt-14 flex justify-center">
+                    <button class="bg-gray-500 text-xs text-white p-2 font-bold
+                    cursor-pointer tracking-wider uppercase rounded-full
+                   border-2 border-black  ">Load More</button>
+                </div>
+            </div>
+        </main>
+    </div> <!--end of  wrapper -->
+</body>
+
+</html>
